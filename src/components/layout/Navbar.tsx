@@ -15,23 +15,23 @@ const Navbar: React.FC = () => {
   return (
     <BootstrapNavbar bg="success" variant="dark" expand="lg" className="py-3">
       <Container>
-        <BootstrapNavbar.Brand as={Link} to="https://winac2.github.io/agri-website-/" className="fw-bold">
+        <BootstrapNavbar.Brand as={Link} to="https://farmtute.vn" className="fw-bold">
            farm2tech
         </BootstrapNavbar.Brand>
         
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="https://winac2.github.io/agri-website-/">Home</Nav.Link>
+            <Nav.Link as={Link} to="https://farmtute.vn">Home</Nav.Link>
             <NavDropdown title="Categories" id="categories-dropdown">
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Thực phẩm</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Đặc sản khô</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Thảo dược</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Đồ gia dụng</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Trái cây</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Sản phẩm tái chế</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Thực phẩm</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Đặc sản khô</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Thảo dược</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Đồ gia dụng</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Trái cây</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="https://farmtute.vn">Sản phẩm tái chế</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="https://winac2.github.io/agri-website-/">Contact</Nav.Link>
+            <Nav.Link as={Link} to="https://farmtute.vn">Contact</Nav.Link>
           </Nav>
           
           <Form className="d-flex me-3">
@@ -47,17 +47,17 @@ const Navbar: React.FC = () => {
           <Nav>
             {!user ? (
               <>
-                <Nav.Link as={Link} to="https://winac2.github.io/agri-website-/" className="me-2">Login</Nav.Link>
-                <Button variant="light" size="sm" onClick={() => navigate('https://winac2.github.io/agri-website-/')}>Sign Up</Button>
+                <Nav.Link as={Link} to="https://farmtute.vn" className="me-2">Login</Nav.Link>
+                <Button variant="light" size="sm" onClick={() => navigate('https://farmtute.vn')}>Sign Up</Button>
               </>
             ) : (
               <>
-                <Nav.Link as={Link} to="https://winac2.github.io/agri-website-/" className="me-2">
+                <Nav.Link as={Link} to="https://farmtute.vn" className="me-2">
                   🛒 Cart
                 </Nav.Link>
                 <NavDropdown title={user.username} id="account-dropdown">
-                  <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">Profile</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="https://winac2.github.io/agri-website-/">My Orders</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="https://farmtute.vn">Profile</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="https://farmtute.vn">My Orders</NavDropdown.Item>
                   {/* Optionally, you can add role-based items here if you store role in AuthContext */}
                   <NavDropdown.Divider />
                   <NavDropdown.Item onClick={handleLogout}>Logout</NavDropdown.Item>

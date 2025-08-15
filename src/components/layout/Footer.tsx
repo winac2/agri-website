@@ -23,27 +23,27 @@ const Footer: React.FC = () => {
           <Col md={2} className="mb-4">
             <h6 className="mb-3">Quick Links</h6>
             <ul className="list-unstyled">
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Home</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Thực phẩm</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Trái cây</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Đặc sản khô</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Home</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Thực phẩm</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Trái cây</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Đặc sản khô</Link></li>
             </ul>
           </Col>
           
           <Col md={2} className="mb-4">
             <h6 className="mb-3">Account</h6>
             <ul className="list-unstyled">
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Login</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Sign Up</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Profile</Link></li>
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Orders</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Login</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Sign Up</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Profile</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Orders</Link></li>
             </ul>
           </Col>
           
           <Col md={2} className="mb-4">
             <h6 className="mb-3">Support</h6>
             <ul className="list-unstyled">
-              <li><Link to="https://winac2.github.io/agri-website-/" className="text-success">Contact Us</Link></li>
+              <li><Link to="https://farmtute.vn" className="text-success">Contact Us</Link></li>
               <li><a href="#" className="text-success">Help Center</a></li>
               <li><a href="#" className="text-success">Shipping Info</a></li>
               <li><a href="#" className="text-success">Returns</a></li>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
         <Row className="align-items-center">
           <Col md={6}>
             <p className="text-success">
-              © 2025 Farm to tech. All rights reserved. 1.2.2
+              © 2025 Farm to tech. All rights reserved. 1.2.3
             </p>
           </Col>
           <Col md={6} className="text-md-end">

@@ -5,54 +5,45 @@ const HomePage: React.FC = () => {
   const supplyChainData = [
     {
       id: 1,
-      title: 'Trang trại',
+      title: 'Thông tin ',
       icon: '🏡',
       image: 'https://drive.google.com/thumbnail?id=1E8kNcqaxzeV7ZYOM68d22uGXv-R0Apop',
-      location: 'Địa điểm kinh doanh thanh hóa 8 - Công ty cổ phần nông nghiệp BAF Việt nam - Tỉnh Thanh Hóa',
-      gln: 'GS1 GLN: Thiếu DL',
-      controlId: 'Kiểm soát xuất trại: QC-5326881',
+      location: 'Nguyên liệu chính: Cơm dừa, tinh bột sắn, mè, gia vị',
+      gln: 'Nguồn gốc: Nguyên liệu được lựa chọn và làm sạch tại trang trại',
+      controlId: 'Thông tin bổ sung: Cơm dừa được làm sạch, xay để lấy nước cốt dừa phục vụ sản xuất bánh',
       time: 'Thời gian bán: 01/08/2025 19:05'
     },
     {
       id: 2,
-      title: 'Cơ sở giết mỗ',
+      title: 'Cơ sở sơ chế',
       icon: '🏭',
       image: 'https://drive.google.com/thumbnail?id=1wbqeGiyV_OkvxySAaJgXUhEHFPFlP4iI',
-      location: 'CSCM Minh Hiền - CN CTCP Nông Nghiệp BaF Việt Nam Hà Nội',
-      gln: 'GS1 GLN: Thiếu DL',
-      controlId: 'Kiểm soát giết mổ: QC-5326890',
-      time: 'Thời gian giết mổ: 01/08/2025 19:18'
+      location: 'Quy trình sơ chế:',
+      gln: 'Cơm dừa được xay lấy nước cốt',
+      controlId: 'Tinh bột sắn, mè và gia vị được làm sạch',
+      time: 'Trộn hỗn hợp: Nước cốt dừa + Tinh bột sắn + Mè + Gia vị'
     },
     {
       id: 3,
-      title: 'Nhà chế biến/đóng gói',
+      title: 'Các bước sản xuất',
       icon: '🏢',
       image: 'https://drive.google.com/thumbnail?id=1TrzHYpwpoZh2eJ_rp94QyGxXA8I99s1_',
-      location: 'CN CTCP Nông Nghiệp BaF Việt Nam tại Hà Nội',
-      gln: 'GS1 GLN: Thiếu DL',
-      controlId: 'Nhà sản xuất thịt nhận ngày: 01/08/2025 19:18',
-      time: 'Ngày bán của nhà sản xuất thịt: 03/08/2025 10:52'
+      location: 'Tráng bánh. Sấy lần 1 ở nhiệt độ 55°C - 65°C',
+      gln: 'Cắt và định hình bánh. Sấy lần 2 ở nhiệt độ 40°C - 50°C',
+      controlId: 'Bán thành phẩm: Bánh tráng nước dừa sống',
+      time: 'Nướng bánh, Đóng gói thành phẩm'
     },
     {
       id: 4,
-      title: 'Blockchain',
+      title: 'Thông tin thời gian',
       icon: '🌐',
       image: 'https://drive.google.com/thumbnail?id=1VuGy9pP8i9jMAE65gPuUT6ICuoQJ7mba',
-      location: 'The FoodChain',
+      location: 'Thời gian sản xuất: 26/07/2025 9:07',
       gln: '',
       controlId: '',
-      time: 'Hash: 87a60af32edcbb431fec33 4ac4efeedaaa8230a679c3 c92e61d1f0e1801b4b91'
+      time: 'Thời gian bán: 01/08/2025 19:05'
     },
-    {
-      id: 5,
-      title: 'Blockchain',
-      icon: '🌐',
-      image: 'https://drive.google.com/thumbnail?id=12dK2gqxsDyMykPK6MXj4iz_1lCrDcmh2',
-      location: 'The FoodChain',
-      gln: '',
-      controlId: '',
-      time: 'Hash: 87a60af32edcbb431fec33 4ac4efeedaaa8230a679c3 c92e61d1f0e1801b4b91'
-    }
+    
   ];
 
   return (
