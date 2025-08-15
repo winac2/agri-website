@@ -133,14 +133,14 @@ const HomePage: React.FC = () => {
                       <Card.Body className="p-3">
                         <div className="d-flex justify-content-between align-items-start">
                           {/* Image Section */}
-                          <div className="me-3" style={{ width: '120px', flexShrink: 0 }}>
+                          <div className="me-3" style={{ width: '220px', flexShrink: 0 }}>
                             <img 
                               src={stage.image} 
                               alt={stage.title}
                               className="rounded"
                               style={{ 
                                 width: '100%', 
-                                height: '80px', 
+                                height: '160px', 
                                 objectFit: 'cover' 
                               }}
                             />
